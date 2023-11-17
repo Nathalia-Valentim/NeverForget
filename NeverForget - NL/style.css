@@ -6,9 +6,11 @@ body{
 /* Primeira Seção */
 #secao1 {
     display: flex;
-    justify-content: flex-start;
-    padding-left: 400px;
-    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 60px;
+    flex-direction: row;
 }
 
 .texto1{
@@ -24,26 +26,30 @@ body{
     font-size: 60px;
 }
 
+img{
+    padding-left: 400px;
+}
+
 /* Segunda Seção */
 
 #secao2{
-    height: 800px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #principal__secao2{
-    width: 700px;
-    height: 500px;
-    background-color: rgba(0,0,0,.7);
-    opacity: 0.9;
-    border-radius: 40px;
-    border: 1px solid #c469c8;
+    width: 600px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(0,0,0,.7);
+    opacity: 0.9;
+    border-radius: 40px;
+    border: 1px solid #c469c8;  
 }
 
 #botoesTempo{
@@ -184,8 +190,7 @@ body{
     width:120px;
     height: 50px;
     border-radius: 40px;
-    background: rgb(23,54,210);
-    background: radial-gradient(circle, rgba(23,54,210,1) 0%, rgba(196,105,200,1) 100%);
+    background: #4615b2;
     border: none;
     color: white;
     font-family: 'Manrope';
@@ -196,4 +201,61 @@ body{
 
 #botaoComecar:hover{
     border: 1px solid white;
+}
+
+/* Lista de tarefas */
+
+#listaTarefas{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#emAndamento{
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#textoAndamento{
+    font-family: 'Manrope';
+}
+
+#linha{
+    width: 600px;
+    height: 2px;
+    background-color: #4615b2;
+    border-radius: 20px;
+}
+
+#tarefas{
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 30px ;
+}
+
+#textoTarefas{
+    font-family: 'Manrope';
+    font-size: 40px;
+}
+
+#btnTarefas{
+    width: 600px;
+    height: 85px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 15px;
+    color: pink;
+    border-radius: 20px;
+    border: 1px solid pink;
+    background-color: transparent;
+}
+
+#btnTarefas:hover{
+    color: white;
+    border:1px solid white;
 }
