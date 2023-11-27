@@ -235,7 +235,9 @@ img{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding-top: 30px ;
+    padding-top: 30px;
+
+    padding-bottom: 150px;
 }
 
 #textoTarefas{
@@ -245,7 +247,7 @@ img{
 
 #btnTarefas{
     width: 600px;
-    height: 85px;
+    height: 45px;
     text-align: center;
     font-family: 'Manrope';
     font-size: 15px;
